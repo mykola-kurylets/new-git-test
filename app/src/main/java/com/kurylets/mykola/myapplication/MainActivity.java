@@ -11,6 +11,8 @@ import android.view.MenuItem;
 
 public class MainActivity extends AppCompatActivity {
 
+    // Звичайна зміна у файлі для демонстрації коміту
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
