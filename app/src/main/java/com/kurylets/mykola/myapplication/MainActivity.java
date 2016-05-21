@@ -10,6 +10,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 import com.kurylets.mykola.mylibrary.SumClass;
+import com.kurylets.mykola.mylibrary.SumClass2;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -32,6 +33,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
         SumClass sc = new SumClass();
+        SumClass2 sc2 = new SumClass2();
     }
 
     @Override
