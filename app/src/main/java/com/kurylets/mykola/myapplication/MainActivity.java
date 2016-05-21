@@ -9,6 +9,8 @@ import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import com.kurylets.mykola.mylibrary.SumClass;
+
 public class MainActivity extends AppCompatActivity {
 
     // Звичайна зміна у файлі для демонстрації коміту
@@ -28,6 +30,8 @@ public class MainActivity extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });
+
+        SumClass sc = new SumClass();
     }
 
     @Override
